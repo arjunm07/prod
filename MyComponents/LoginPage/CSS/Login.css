@@ -1,0 +1,59 @@
+
+.wrapper {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.700);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+    border-color: brown;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:rgb(73, 106, 46) ;
+    border-color:rgb(73, 106, 46)  ;
+}

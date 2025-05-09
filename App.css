@@ -1,0 +1,49 @@
+body{
+    background-image:url("/src/Resources/bag.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+
+   background-color: rgba(255, 255, 255, 0.700);
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0);
+   width: 300px;
+   margin: 15px 0;
+   padding: 20px;
+   transition: transform 0.2s;
+   backdrop-filter: blur(10px);
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+    background-color:transparent;
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card-img-top{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color:brown;
+    border-color: brown;
+}
+
+.btn-primary:hover{
+    background-color:rgb(73, 106, 46) ;
+    border-color:rgb(73, 106, 46)  ;
+}
+

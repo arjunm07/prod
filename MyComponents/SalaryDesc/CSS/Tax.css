@@ -1,0 +1,22 @@
+.tax{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.700);
+    width: 69.3%;
+    float: inline-start;
+    transition: transform 0.5s ease-in-out;
+    }
+
+.tax:hover {
+        transform: translateY(-5px);
+      }
+      
+.img-tx {
+        height: 50px;
+        width: 120px;
+        border-radius: 10px;
+        position: relative;
+        top: auto;
+        left: auto;
+      }

@@ -1,0 +1,19 @@
+.tax-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    width: 40%; 
+    height: auto; 
+    min-height: 250px; 
+    margin: auto;
+    float: inline-end;
+  }
+  
+  .apexcharts-canvas {
+    max-width: 100%;
+    border-radius: 10px;
+    
+  }
+  

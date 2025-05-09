@@ -1,0 +1,26 @@
+#intro1{
+    position: absolute;
+    right: 10%; 
+    top: 20%;
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(255,255,255,0.300);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 50%;
+}
+
+.card-img{
+    margin-top: 170px;
+    height: 50%;
+    width: 40%;
+    border-radius: 20px;
+}
+.cardt{
+    color: white;
+}
+
+.cardt1{
+    color: white;
+}
+
